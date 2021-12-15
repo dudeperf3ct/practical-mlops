@@ -1,0 +1,18 @@
+[submodule "exercises/8-fastapi-tests-gcp-gke"]
+	path = exercises/8-fastapi-tests-gcp-gke
+	url = git@github.com:dudeperf3ct/8-fastapi-tests-gcp-gke.git
+[submodule "exercises/6-ml-fastapi-aws-serverless"]
+	path = exercises/6-ml-fastapi-aws-serverless
+	url = git@github.com:dudeperf3ct/6-ml-fastapi-aws-serverless.git
+[submodule "exercises/5-ml-fastapi-gcp-serverless"]
+	path = exercises/5-ml-fastapi-gcp-serverless
+	url = git@github.com:dudeperf3ct/5-ml-fastapi-gcp-serverless.git
+[submodule "exercises/4-ml-fastapi-azure-serverless"]
+	path = exercises/4-ml-fastapi-azure-serverless
+	url = git@github.com:dudeperf3ct/4-ml-fastapi-azure-serverless.git
+[submodule "exercises/3-github-actions-docker"]
+	path = exercises/3-github-actions-docker
+	url = git@github.com:dudeperf3ct/3-github-actions-docker.git
+[submodule "exercises/2-github-actions-makefile"]
+	path = exercises/2-github-actions-makefile
+	url = git@github.com:dudeperf3ct/2-github-actions-makefile.git
