@@ -16,3 +16,9 @@
 [submodule "exercises/2-github-actions-makefile"]
 	path = exercises/2-github-actions-makefile
 	url = git@github.com:dudeperf3ct/2-github-actions-makefile.git
+[submodule "exercises/9-fastapi-kubernetes-monitoring"]
+	path = exercises/9-fastapi-kubernetes-monitoring
+	url = git@github.com:dudeperf3ct/9-fastapi-kubernetes-monitoring.git
+[submodule "exercises/10-bentoml-deploy"]
+	path = exercises/10-bentoml-deploy
+	url = git@github.com:dudeperf3ct/10-bentoml-deploy.git

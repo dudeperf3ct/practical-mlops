@@ -51,7 +51,11 @@ In sixth step, we run start a `bash` interpreter when we execute docker with int
 
 > The `CMD` instruction should be used to run the software contained in your image, along with any arguments.
 
-Follow this guide for best practices for writing Dockerfiles: https://docs.docker.com/develop/develop-images/dockerfile_best-practices/https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+Follow this guide for 
+
+Best practices for writing Dockerfiles: https://docs.docker.com/develop/develop-images/dockerfile_best-practices/https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+
+Dockerfile best practices: https://testdriven.io/blog/docker-best-practices/
 
 ```bash
 docker build -t myimage:latest .
