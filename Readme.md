@@ -73,7 +73,7 @@ Book: [Practical MLOps By Noah Gift, Alfredo Deza](https://learning.oreilly.com/
 
       **Technologies: Docker, Serverless Framework, FastAPI, Continuous Integration using Github Actions, Trunk.io linter**
 
-13. [Bodywork Train and Deploy](https://github.com/dudeperf3ct/113-bodywork-train-deploy.git): This exercise contains a Bodywork project that demonstrates how to run a ML pipeline on Kubernetes, with Bodywork. The example ML pipeline has two stages:
+13. [Bodywork Train and Deploy](https://github.com/dudeperf3ct/13-bodywork-train-deploy.git): This exercise contains a Bodywork project that demonstrates how to run a ML pipeline on Kubernetes, with Bodywork. The example ML pipeline has two stages:
 
        - Run a batch job to train a model.
 
