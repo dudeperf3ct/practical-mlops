@@ -25,3 +25,9 @@
 [submodule "exercises/11-cortex-deploy"]
 	path = exercises/11-cortex-deploy
 	url = git@github.com:dudeperf3ct/11-cortex-deploy.git
+[submodule "exercises/12-serverless-deploy"]
+	path = exercises/12-serverless-deploy
+	url = git@github.com:dudeperf3ct/12-serverless-deploy.git
+[submodule "exercises/13-bodywork-train-deploy"]
+	path = exercises/13-bodywork-train-deploy
+	url = git@github.com:dudeperf3ct/13-bodywork-train-deploy.git

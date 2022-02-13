@@ -8,7 +8,7 @@ Book: [Practical MLOps By Noah Gift, Alfredo Deza](https://learning.oreilly.com/
 
 ## Exercies
 
-`exercies` folder implements exercies from different chapters.
+`exercies` folder implements exercies from different chapters and explores [different ML serving frameworks](https://mlops.toys/model-serving).
 
 1. [Makefile](exercises/1-makefile) : In this exercise, we will automate the task of installing packages, linting, formatting and testing using Makefile.
 
@@ -54,20 +54,29 @@ Book: [Practical MLOps By Noah Gift, Alfredo Deza](https://learning.oreilly.com/
 
 10. [BentoML Deploy](https://github.com/dudeperf3ct/10-bentoml-deploy): In this exercise, we will use BentoML library to deploy the sentiment classification model from Hugging Face :hugs: on following services.
 
-   - [AWS Lambda Deployment](https://github.com/dudeperf3ct/10-bentoml-deploy/blob/main/aws%20lambda/Readme.md)
-   - [Azure Functions Deployment](https://github.com/dudeperf3ct/10-bentoml-deploy/blob/main/azure%20functions/Readme.md)
-   - [Kubernetes Cluster Deployment](https://github.com/dudeperf3ct/10-bentoml-deploy/blob/main/kubernetes/Readme.md)
+      - [AWS Lambda Deployment](https://github.com/dudeperf3ct/10-bentoml-deploy/blob/main/aws%20lambda/Readme.md)
+      - [Azure Functions Deployment](https://github.com/dudeperf3ct/10-bentoml-deploy/blob/main/azure%20functions/Readme.md)
+      - [Kubernetes Cluster Deployment](https://github.com/dudeperf3ct/10-bentoml-deploy/blob/main/kubernetes/Readme.md)
 
-   **Technologies: Docker, Pytest, FastAPI, AWS Lambda, Azure Functions, Kubernetes**
+      **Technologies: Docker, Pytest, FastAPI, AWS Lambda, Azure Functions, Kubernetes, BentoML**
 
 11. [Cortex Deploy](https://github.com/dudeperf3ct/11-cortex-deploy): In this exercise, transformers sentiment classifier fastapi application is deployed using Cortex two different APIs.
 
-    - [Realtime API](https://github.com/dudeperf3ct/11-cortex-deploy/blob/main/realtime/Readme.md)
-    - [Async API](https://github.com/dudeperf3ct/11-cortex-deploy/blob/main/async/Readme.md)
+      - [Realtime API](https://github.com/dudeperf3ct/11-cortex-deploy/blob/main/realtime/Readme.md)
+      - [Async API](https://github.com/dudeperf3ct/11-cortex-deploy/blob/main/async/Readme.md)
 
-   **Technologies: Docker, Cortex, FastAPI, Continuous Integration using Github Actions, Trunk.io linter**
+      **Technologies: Docker, Cortex, FastAPI, Continuous Integration using Github Actions, Trunk.io linter**
 
-12. [Serverless Deploy](https://github.com/dudeperf3ct/12-serverless-deploy): In this exercise, transformers sentiment classifier fastapi application is deployed using two ways i.e., Serverless Framework and Serverless Cloud.
+12. [Serverless Deploy](https://github.com/dudeperf3ct/12-serverless-deploy): In this exercise, transformers sentiment classifier fastapi application is deployed using Serverless Framework.
 
-    - [Serverless Framework]()
-    - [Serverless Cloud]()
+    - [Serverless Framework](https://github.com/dudeperf3ct/12-serverless-deploy#serverless-framework)
+
+      **Technologies: Docker, Serverless Framework, FastAPI, Continuous Integration using Github Actions, Trunk.io linter**
+
+13. [Bodywork Train and Deploy](https://github.com/dudeperf3ct/113-bodywork-train-deploy.git): This exercise contains a Bodywork project that demonstrates how to run a ML pipeline on Kubernetes, with Bodywork. The example ML pipeline has two stages:
+
+       - Run a batch job to train a model.
+
+       - Deploy the trained model as service with a REST API.
+
+          **Technologies: Bodywork, Flask, Kubernetes, Cronjob**
